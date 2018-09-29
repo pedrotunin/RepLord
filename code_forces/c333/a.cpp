@@ -40,7 +40,6 @@ int main(){
 	if(resx == resy) cout << "=" << endl;
 	else if(resx > resy) cout << ">" << endl;
 	else cout << "<" << endl;
-
     return 0;
 }
 
