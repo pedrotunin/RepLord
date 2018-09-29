@@ -36,9 +36,7 @@ int main(){
 	for(int i = m - 1 ; i >= 0 ; i--){
 		resy += y[i] * basey;
 		basey *= by;
-	}
-	//cout << resx << " " << resy << endl;
-	
+	}	
 	if(resx == resy) cout << "=" << endl;
 	else if(resx > resy) cout << ">" << endl;
 	else cout << "<" << endl;
